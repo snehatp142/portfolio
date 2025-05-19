@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link  href="">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home"class="logo">Sneha <span>T</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home"class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            
+            <a href="#projects">Projects</a>
+            <!-- <a href="#contact">Contact</a> -->
+        </nav>
+    </header>
+    <section class="home"id="home">
+        <div class="home-content">
+            <h1>Hi , it's <span>Sneha</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Results-driven Full Stack Developer with a strong background in designing, developing, and deploying scalable web applications. Proficient in both frontend and backend technologies, including Angular, JavaScript, HTML/CSS, Python (Django/Flask), and SQL/MySQL, MongoDB databases. Skilled in API development and optimizing application performance. Passionate about building user-friendly, high-performance applications that enhance user experiences.</p>
+              
+              <div class="social-icon">
+                <a href="#"><i class='bx bx-linkedin'></i></a>
+                <a href="#"><img src="" alt=""></a>
+                <a href="#"></a>
+                <a href="#"></a>
+              </div>
+              <div class="btn-group"><a href="#" class="btn">Hire</a>
+              <a href="#contact" class="btn">Contact</a></div>
+        </div>
+        <div class="home-img">
+            <img src="sneha .image.png" alt="">
+
+        </div>
+    </section>
+    
+
+    <section class="education" id="education">
+  <h2 class="heading">Education</h2>
+  <div class="timeline-items">
+     <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2024 - 2025</div>
+      <div class="timeline-content">
+        <h3>Intership</h3>
+        <p>Quest Innovative Solution , Kochi</p>
+        <p>intern - Python Full Stack Developer</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2020 - 2024</div>
+      <div class="timeline-content">
+        <h3>Bachelor of Technology in Computer Science</h3>
+        <p>Malabar College of Engineering and Technology, Thrissur</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2018 - 2020</div>
+      <div class="timeline-content">
+        <h3>Higher Secondary Education</h3>
+        <p>Government Ganapath High School, Kozhikode</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2>My Services</h2>
+  <div class="services-container">
+
+    <div class="service-box">
+      <div class="service-info">
+        <h4>FRONTEND DEVELOPER</h4>
+        <p>I design clean and interactive UI using React.js and Tailwind CSS to improve user experience.</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-info">
+        <h4>ANGULAR DEVELOPER</h4>
+        <p>I build dynamic and scalable single-page applications using Angular, TypeScript, and RxJS with a strong focus on performance and modular code architecture.</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-info">
+        <h4>BACKEND DEVELOPER</h4>
+        <p>I develop secure and scalable server-side applications using Flask, Django, and REST APIs.</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-info">
+        <h4>DATABASE MANAGEMENT</h4>
+        <p>I manage and optimize databases like MySQL, PostgreSQL, and MongoDB for performance and reliability.</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-info">
+        <h4>API INTEGRATION</h4>
+        <p>I integrate third-party APIs and build custom RESTful APIs for seamless data exchange between systems.</p>
+      </div>
+    </div>
+
+    <div class="service-box">
+      <div class="service-info">
+        <h4>DEPLOYMENT & MAINTENANCE</h4>
+        <p>I deploy web apps on cloud platforms and provide ongoing maintenance for smooth operation.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="projects" id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+   <div class="project-box">
+  <h2>Medicine Recognition & Interaction Analysis System</h2>
+  <p><strong>Description:</strong> An AI-powered healthcare app that identifies medicine names from labels and predicts possible drug interactions.</p>
+  <p><strong>Technologies Used:</strong> Python, Flask, Tesseract OCR, TensorFlow, SQLite, Android Studio</p>
+  <p><strong>Development Process:</strong> Developed an OCR-based Android app to extract text from medicine labels. Used a trained AI model to classify medicines and predict drug interactions. Integrated ChatGPT for fallback suggestions. Flask backend manages API endpoints and stores data in SQLite. Also included a web dashboard for analysis.</p>
+</div>
+
+  
+<div class="project-box">
+  <h2>Personal Portfolio Website</h2>
+  <p><strong>Description:</strong> A responsive and interactive web portfolio showcasing my skills, projects, and resume.</p>
+  <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Flexbox/Grid</p>
+  <p><strong>Development Process:</strong> Designed and built using semantic HTML and styled with modern CSS Flexbox and Grid. Added smooth scroll navigation, animations, and responsive design for mobile compatibility.</p>
+</div>
+
+   <div class="project-box">
+  <h2>College Management System</h2>
+  <p><strong>Description:</strong> A web-based system to manage student details, attendance, faculty, and course scheduling.</p>
+  <p><strong>Technologies Used:</strong> Django, Python, HTML, CSS, SQLite</p>
+  <p><strong>Development Process:</strong> Built with Django's MVC architecture using Django templates for rendering views. Implemented user authentication, CRUD operations, and dynamic dashboards for admin and faculty.</p>
+  <a href="https://snehaunni.pythonanywhere.com/">project link</a>
+</div>
+
+
+<div class="project-box">
+  <h2>Hospital Management System</h2>
+  <p><strong>Description:</strong> A full-stack application to manage patient records, appointments, billing, and doctor schedules.</p>
+  <p><strong>Technologies Used:</strong> Angular (Frontend), Django REST Framework (Backend), PostgreSQL</p>
+  <p><strong>Development Process:</strong> Developed a RESTful API using Django REST Framework and integrated it with an Angular frontend. Implemented token-based authentication, patient module, appointment booking, and admin dashboard.</p>
+</div>
+
+    
+ 
+  </div>
+</section>
+
+
+
+
+        <script src="script.js"></script> 
+
+    
+</body>
+</html>
